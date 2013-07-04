@@ -1,4 +1,4 @@
-﻿namespace LeightweightCompositionDotNet.Mvc
+﻿namespace LightweightCompositionDotNet.Mvc
 {
     /// <summary>
     ///     Well-known sharing boundary names. The composition provider uses

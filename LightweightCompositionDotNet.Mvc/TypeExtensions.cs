@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     static class TypeExtensions
     {

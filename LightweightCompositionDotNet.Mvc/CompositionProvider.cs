@@ -10,7 +10,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     /// <summary>
     ///     Provides composition services to ASP.NET MVC by integrating DependencyResolver with

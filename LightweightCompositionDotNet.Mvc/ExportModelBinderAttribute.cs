@@ -2,7 +2,7 @@
 using System.Composition;
 using System.Web.Mvc;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     /// <summary>
     ///     Marks a type as being a model binder for a specified model type. The type decorated with

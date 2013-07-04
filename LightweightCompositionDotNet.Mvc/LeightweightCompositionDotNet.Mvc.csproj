@@ -7,8 +7,8 @@
     <ProjectGuid>{3B923AE4-9445-48FB-9E35-0FE03B2217A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LeightweightCompositionDotNet.Mvc</RootNamespace>
-    <AssemblyName>LeightweightCompositionDotNet.Mvc</AssemblyName>
+    <RootNamespace>LightweightCompositionDotNet.Mvc</RootNamespace>
+    <AssemblyName>LightweightCompositionDotNet.Mvc</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -3,7 +3,7 @@ using System.Composition;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     internal class CompositionScopeFilterAttributeFilterProvider : FilterAttributeFilterProvider
     {

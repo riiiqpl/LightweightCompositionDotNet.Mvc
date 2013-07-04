@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Mvc;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     /// <summary>
     ///     A <see cref="ContainerConfiguration" /> that loads parts in the currently-executing ASP.NET MVC web application.

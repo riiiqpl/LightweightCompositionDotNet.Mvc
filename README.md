@@ -1,8 +1,8 @@
-LeightweightCompositionDotNet.Mvc
+LightweightCompositionDotNet.Mvc
 =================================
 
-Packing the "Microsoft.Composition.Demos.Web.Mvc" assembly for general consumption.
+Packaging the "Microsoft.Composition.Demos.Web.Mvc" assembly for general consumption.
 
 ##
 
-*LeightweightCompositionDotNet.Mvc* is derived from the *Microsoft.Composition.Demos.Web.Mvc* project. It inherits the [*Microsoft Public License (MS-PL)*](http://www.microsoft.com/en-us/openness/licenses.aspx).
+*LightweightCompositionDotNet.Mvc* is derived from the *Microsoft.Composition.Demos.Web.Mvc* project. It inherits the [*Microsoft Public License (MS-PL)*](http://www.microsoft.com/en-us/openness/licenses.aspx).

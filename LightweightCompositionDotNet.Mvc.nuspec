@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LightweightCompositionDotNet.Mvc</id>
+    <version>4.0.0</version>
+    <title>LightweightCompositionDotNet.Mvc</title>
+    <authors>ta.speot.is</authors>
+    <owners>ta.speot.is</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Packaging the "Microsoft.Composition.Demos.Web.Mvc" assembly for general consumption.</description>
+    <summary />
+    <copyright />
+    <dependencies>
+      <dependency id="Microsoft.Composition" />
+      <dependency id="Microsoft.Net.Http" />
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0" />
+      <dependency id="Microsoft.AspNet.WebAi" version="4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LightweightCompositionDotNet.Mvc\bin\Release\LightweightCompositionDotNet.Mvc.dll"
+          target="lib\net45\LightweightCompositionDotNet.Mvc.dll" />
+  </files>
+</package>

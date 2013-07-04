@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Web.Http.Dependencies;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     internal class CompositionScopeHttpDependencyResolver : IDependencyResolver
     {

@@ -3,7 +3,7 @@ using System.Composition;
 using System.Web;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
-namespace LeightweightCompositionDotNet.Mvc
+namespace LightweightCompositionDotNet.Mvc
 {
     /// <summary>
     ///     Provides lifetime management for the <see cref="CompositionProvider" /> type.

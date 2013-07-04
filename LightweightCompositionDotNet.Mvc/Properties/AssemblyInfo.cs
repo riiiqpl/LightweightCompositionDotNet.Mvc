@@ -1,17 +1,17 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Web;
-using LeightweightCompositionDotNet.Mvc;
+using LightweightCompositionDotNet.Mvc;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("LeightweightCompositionDotNet.Mvc")]
+[assembly: AssemblyTitle("LightweightCompositionDotNet.Mvc")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LeightweightCompositionDotNet.Mvc")]
+[assembly: AssemblyProduct("LightweightCompositionDotNet.Mvc")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
