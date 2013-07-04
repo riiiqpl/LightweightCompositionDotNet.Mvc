@@ -1,31 +1,25 @@
-﻿// -----------------------------------------------------------------------
-// Copyright © Microsoft Corporation.  All rights reserved.
-// -----------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Composition;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Web.Mvc;
 
-namespace Microsoft.Composition.Demos.Web.Mvc
+namespace LeightweightCompositionDotNet.Mvc
 {
-    class CompositionScopeModelBinderProvider : IModelBinderProvider
+    internal class CompositionScopeModelBinderProvider : IModelBinderProvider
     {
-        const string ModelBinderContractNameSuffix = "++ModelBinder";
-
-        public static string GetModelBinderContractName(Type modelType)
-        {
-            return modelType.AssemblyQualifiedName + ModelBinderContractNameSuffix;
-        }
+        private const string ModelBinderContractNameSuffix = "++ModelBinder";
 
         public IModelBinder GetBinder(Type modelType)
         {
             IModelBinder export;
+
             if (!CompositionProvider.Current.TryGetExport(GetModelBinderContractName(modelType), out export))
                 return null;
 
             return export;
+        }
+
+        public static string GetModelBinderContractName(Type modelType)
+        {
+            return modelType.AssemblyQualifiedName + ModelBinderContractNameSuffix;
         }
     }
 }

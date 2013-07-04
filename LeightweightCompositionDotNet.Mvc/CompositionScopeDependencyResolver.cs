@@ -1,22 +1,15 @@
-﻿// -----------------------------------------------------------------------
-// Copyright © Microsoft Corporation.  All rights reserved.
-// -----------------------------------------------------------------------
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System.Composition;
-using System.Linq;
-using System.Reflection;
-using System.Web;
 using System.Web.Mvc;
 
-namespace Microsoft.Composition.Demos.Web.Mvc
+namespace LeightweightCompositionDotNet.Mvc
 {
-    class CompositionScopeDependencyResolver : IDependencyResolver
+    internal class CompositionScopeDependencyResolver : IDependencyResolver
     {
         public object GetService(Type serviceType)
         {
             object export;
+
             if (!CompositionProvider.Current.TryGetExport(serviceType, null, out export))
                 return null;
 
