@@ -27,7 +27,9 @@
 <body>
     <div class="container">
 		<xsl:for-each select="xi:include[@href][@parse='xml' or not(@parse)]">
-		    <xsl:apply-templates select="document(@href)" />
+		    <xsl:apply-templates select="document(@href)">
+			    <xsl:sort select="assembly/name" />
+			</xsl:apply-templates>
 		</xsl:for-each>
 	</div>
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -43,9 +45,22 @@
 			    <xsl:value-of select="name" />
 		    </a>
 	    </div>
+		
+		<!-- navbar -->
+
+		<xsl:for-each select="/doc/members/member[substring(@name,1,1)='T']">
+		    <xsl:sort select="@name" />
+			<xsl:call-template name="type" />
+		</xsl:for-each>
 	</xsl:for-each>
 	
 	<div class="clearfix" />
+</xsl:template>
+
+<xsl:template name="type">
+  <h1>
+      class or struct <xsl:value-of select="substring(@name, 3)" />
+  </h1>
 </xsl:template>
 
 </xsl:stylesheet>
