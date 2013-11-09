@@ -1,3 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="index.xsl"?>
-<xi:include href="test.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+<?xml-stylesheet type="text/xsl" href="index.xsl" ?>
+<documentation>
+    <xi:include href="input.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</documentation>
